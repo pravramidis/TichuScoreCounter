@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.prodromos.tichucounter.ui.home.HomeFragment"
+        android:name="com.prodromos.tichucounter.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.prodromos.tichucounter.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_game"
+        android:name="com.prodromos.tichucounter.GameFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_game" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.prodromos.tichucounter.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_profiles"
+        android:name="com.prodromos.tichucounter.ProfilesFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_profiles" />
 </navigation>
