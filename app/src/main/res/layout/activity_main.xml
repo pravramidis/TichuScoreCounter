@@ -8,6 +8,7 @@
     android:paddingTop="?attr/actionBarSize">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:fitsSystemWindows="true"
         android:id="@+id/nav_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <FrameLayout
+        android:fitsSystemWindows="true"
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
